@@ -1,0 +1,384 @@
+@font-face {
+  font-family: Arista;
+  src: url("arista.ttf");
+}
+
+@font-face {
+  font-family: Orbitron;
+  src: url("https://fonts.googleapis.com/css?family=Orbitron");
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #333945, 0 0 20px #333945, 0 0 30px #1BCA9B, 0 0 40px #1BCA9B, 0 0 50px #1BCA9B, 0 0 60px #1BCA9B, 0 0 70px #1BCA9B;
+  }
+  to {
+    text-shadow: 0 0 20px #1BCA9B, 0 0 30px #333945, 0 0 40px #333945, 0 0 50px #333945, 0 0 60px #333945, 0 0 70px #333945, 0 0 80px #333945;
+  }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #333945, 0 0 20px #333945, 0 0 30px #1BCA9B, 0 0 40px #1BCA9B, 0 0 50px #1BCA9B, 0 0 60px #1BCA9B, 0 0 70px #1BCA9B;
+  }
+  to {
+    text-shadow: 0 0 20px #1BCA9B, 0 0 30px #333945, 0 0 40px #333945, 0 0 50px #333945, 0 0 60px #333945, 0 0 70px #333945, 0 0 80px #333945;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-facebook :hover {
+  color: #3B5998;
+}
+
+.developer {
+  color: #1BCA9B;
+  font-size: 18px;
+  margin: 10px;
+  margin-left: 0;
+}
+
+.footer-msg {
+  color: #1BCA9B;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.fa {
+  border-radius: 50%;
+  padding: 25px;
+  background-color: transparent;
+}
+
+.location {
+  margin-top: 15px;
+  padding: 30px;
+}
+
+.fa:hover {
+  text-decoration: none;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-twitter:hover {
+  color: #55ACEE;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.fa-linkedin:hover {
+  color: #007bb5;
+}
+
+body {
+  font-family: Ubuntu;
+}
+
+body input[type=text], body [type=email] {
+  border: 1px solid #1BCA9B;
+}
+
+body .vision {
+  margin-top: 260px;
+  height: 300px;
+}
+
+body .vision-container {
+  -webkit-box-shadow: 0px 0px 12px #333945;
+          box-shadow: 0px 0px 12px #333945;
+  margin: 100px 0px;
+  background-color: #1BCA9B;
+  color: #333945;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  font-size: 1.7rem;
+}
+
+body .vision-container:hover {
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+          animation: glow 1s ease-in-out infinite alternate;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 12px #333945;
+          box-shadow: 0px 0px 12px #333945;
+  background-color: #333945;
+  color: #1BCA9B;
+}
+
+body .btn-outline-info {
+  background-color: #1BCA9B;
+  color: #333945;
+  border: 1px solid #1BCA9B;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+body .btn-outline-info:hover {
+  background-color: #333945;
+  color: #1BCA9B;
+  border: 1px solid #333945;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+          animation: glow 1s ease-in-out infinite alternate;
+}
+
+body .title {
+  font-size: 5rem;
+  font-family: Arista;
+  margin-bottom: 0;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+          animation: glow 1s ease-in-out infinite alternate;
+}
+
+body #hov {
+  margin-top: 720px;
+  margin-bottom: 100px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+body #b-report-name {
+  padding: 15px;
+  font-size: 1.3rem;
+  padding-bottom: 0px;
+  color: #333945;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 12px #1BCA9B;
+}
+
+body #b-report-dept {
+  padding: 0px;
+  color: #2128B3;
+  text-transform: uppercase;
+  font-size: 17px;
+  -webkit-text-decoration-style: 2px solid #000;
+          text-decoration-style: 2px solid #000;
+  text-shadow: 0px 0px 12px #2128B3;
+}
+
+body #b-report-img {
+  height: 230px;
+  width: 230px;
+  background-image: url(00.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border-top: 3px solid #1BCA9B;
+  border-bottom: 3px solid #1BCA9B;
+  margin: 0;
+}
+
+body .b-report-container {
+  border: 2px solid #333945;
+  -webkit-box-shadow: 0px 0px 12px #333945;
+          box-shadow: 0px 0px 12px #333945;
+  border-radius: 30px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+body .b-report-container:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+body .b-report-container:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
+
+body .slide-show-container {
+  margin-top: 30px;
+}
+
+body .msg-left:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body .b-report {
+  padding: 40px;
+}
+
+body .msg-left {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  -webkit-clip-path: polygon(10% 40%, 10% 0, 100% 0, 100% 100%, 10% 100%, 10% 59%, 0 50%);
+          clip-path: polygon(10% 40%, 10% 0, 100% 0, 100% 100%, 10% 100%, 10% 59%, 0 50%);
+  color: #1BCA9B;
+  border-radius: 10px;
+  background-color: #333945;
+}
+
+body .review {
+  padding: 20px 100px;
+}
+
+body .lwf {
+  font-family: Arista;
+  color: #1BCA9B;
+  float: right;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+          animation: glow 1s ease-in-out infinite alternate;
+}
+
+body .header {
+  z-index: 2;
+}
+
+body .head-fixed {
+  position: fixed;
+  font-size: 2rem;
+  margin-top: -30px;
+  -webkit-clip-path: polygon(100% 0, 100% 50%, 50% 90%, 0 50%, 0 0);
+          clip-path: polygon(100% 0, 100% 50%, 50% 90%, 0 50%, 0 0);
+  height: 24vh;
+  width: 100vw;
+  background-color: #333945;
+  color: #1BCA9B;
+}
+
+body #intro-text {
+  font-family: 'Ubuntu', sans-serif;
+  padding: 15px 35px;
+  margin: 50px;
+  z-index: -1;
+  font-size: 1.5rem;
+}
+
+body .container {
+  margin-bottom: 30px;
+}
+
+body #hov:hover {
+  background-color: #333945;
+  color: #1BCA9B;
+  -webkit-box-shadow: 0px 0px 25px #333945;
+          box-shadow: 0px 0px 25px #333945;
+  border-radius: 13px;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+body .head-scroll {
+  background-color: #1BCA9B;
+  height: 85vh;
+  -webkit-clip-path: polygon(50% 0, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+          clip-path: polygon(50% 0, 100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+}
+
+body .slide-show-container {
+  border: 12px solid #1BCA9B;
+  padding: 0;
+  -webkit-box-shadow: 0px 0px 25px #333945;
+          box-shadow: 0px 0px 25px #333945;
+  border-radius: 12px;
+  margin-bottom: 140px;
+}
+
+body #feedback-form {
+  padding: 40px;
+  padding-top: 120px;
+}
+
+body .feedback-container {
+  margin-top: 30px;
+  -webkit-box-shadow: 0px 0px 20px #333945;
+          box-shadow: 0px 0px 20px #333945;
+  border-radius: 12px;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  margin-bottom: 100px;
+}
+
+body .feedback-container:hover {
+  -webkit-box-shadow: 0px 0px 20px #1BCA9B;
+          box-shadow: 0px 0px 20px #1BCA9B;
+  border-radius: 18px;
+}
+
+body .footer {
+  background-color: #333945;
+}
+
+@media (max-width: 1024px) {
+  body .head-fixed {
+    height: 20vh;
+  }
+  body #hov {
+    margin-top: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  body .msg-left {
+    -webkit-clip-path: polygon(0 25%, 45% 25%, 50% 0, 55% 25%, 100% 25%, 100% 100%, 0 100%);
+            clip-path: polygon(0 25%, 45% 25%, 50% 0, 55% 25%, 100% 25%, 100% 100%, 0 100%);
+  }
+  body .b-report-container {
+    height: 690px;
+  }
+  body .review {
+    padding: 60px 30px 15px 30px;
+  }
+  body #intro-text {
+    padding: 10px 20px;
+    margin: 20px;
+    z-index: -1;
+    font-size: 1rem;
+  }
+  body .head-fixed {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    height: 20vh;
+  }
+  body .title {
+    padding-top: 13px;
+  }
+}
+
+@media (max-width: 412px) and (min-width: 376px) {
+  body .b-report-container {
+    height: 830px;
+  }
+  body .head-fixed {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    height: 20vh;
+  }
+  body .head-scroll {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+  }
+  body #intro-text {
+    padding: 10px 14px;
+    margin: 15px;
+    z-index: -1;
+    font-size: 1rem;
+  }
+  body .review {
+    padding: 80px 20px 25px 20px;
+  }
+}
+
+@media (max-width: 376px) {
+  body .b-report-container {
+    height: 900px;
+  }
+  body .review {
+    padding: 110px 20px 25px 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
