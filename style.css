@@ -91,14 +91,13 @@ body input[type=text], body [type=email] {
 }
 
 body .vision {
-  margin-top: 260px;
   height: 300px;
 }
 
 body .vision-container {
   -webkit-box-shadow: 0px 0px 12px #333945;
           box-shadow: 0px 0px 12px #333945;
-  margin: 100px 0px;
+  margin: 70px 0px;
   background-color: #1BCA9B;
   color: #333945;
   -webkit-transition: all 1s ease;
